@@ -1,0 +1,211 @@
+/* Thiết lập chung cho trang web */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eef2f5;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Phần đầu trang */
+#dau-trang {
+    background-color: #3b7ddd;
+    color: white;
+    text-align: center;
+    padding: 25px 10px;
+}
+
+#dau-trang h1 {
+    margin: 0;
+    font-size: 26px;
+}
+
+/* Thanh menu điều hướng */
+.menu {
+    background-color: #2c62b5;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    display: inline-block;
+    margin: 0 12px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.menu a:hover {
+    color: #ffd54f;
+    text-decoration: underline;
+}
+
+/* Khung chứa nội dung chính */
+.noi-dung-chinh {
+    width: 85%;
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+/* Các khối nội dung (section) */
+.khung-noi-dung {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid #d9d9d9;
+}
+
+h2 {
+    color: #2c62b5;
+    border-bottom: 2px solid #3b7ddd;
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+
+h3 {
+    color: #444444;
+    font-size: 16px;
+}
+
+/* Danh sách sở thích */
+.danh-sach-so-thich, .danh-sach-uu-tien {
+    padding-left: 25px;
+}
+
+.danh-sach-so-thich li, .danh-sach-uu-tien li {
+    margin-bottom: 6px;
+}
+
+/* Bảng thông tin cá nhân */
+.bang-ca-nhan {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.bang-ca-nhan th, .bang-ca-nhan td {
+    border: 1px solid #cccccc;
+    padding: 10px;
+}
+
+.bang-ca-nhan th {
+    background-color: #3b7ddd;
+    color: white;
+    text-align: center;
+}
+
+/* Tô màu xen kẽ các hàng trong bảng */
+.bang-ca-nhan tr:nth-child(even) {
+    background-color: #f4f8fd;
+}
+
+.can-giua {
+    text-align: center;
+}
+
+/* Bố cục lưới hình ảnh bằng flexbox cơ bản */
+.luoi-hinh-anh {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.the-anh {
+    width: 48%;
+    margin-bottom: 15px;
+    text-align: center;
+    border: 1px solid #e0e0e0;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: #fafafa;
+}
+
+.the-anh img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.the-anh p {
+    margin: 8px 0 0 0;
+    font-size: 14px;
+    font-style: italic;
+}
+
+/* Đường kẻ ngang ngăn cách Video và Audio */
+.duong-ke {
+    margin: 25px 0;
+    border: 0;
+    border-top: 1px solid #dddddd;
+}
+
+/* Danh sách liên kết */
+.danh-sach-link li {
+    margin-bottom: 8px;
+}
+
+.danh-sach-link a {
+    color: #2c62b5;
+    text-decoration: none;
+}
+
+.danh-sach-link a:hover {
+    color: #d84315;
+    text-decoration: underline;
+}
+
+/* Biểu mẫu liên hệ */
+.bieu-mau .nhom-nhap {
+    margin-bottom: 15px;
+}
+
+.bieu-mau label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.bieu-mau input, .bieu-mau select, .bieu-mau textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.nut-gui {
+    background-color: #3b7ddd;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.nut-gui:hover {
+    background-color: #2c62b5;
+}
+
+/* Phần chân trang */
+#chan-trang {
+    background-color: #2b2b2b;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+    font-size: 14px;
+}
